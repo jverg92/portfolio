@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+header {
+    min-height: 100vh;
+    background-color: rgb(226, 227, 222);
+}
+img {
+    width: 35%;
+}
+nav {
+    background-color: #001E28;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav, li {
+    display: inline-block;
+    padding: 1rem;
+}
+header main {
+    padding-top: 8rem;
+    font-size: 2rem;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+}
+.about-me {
+    padding: 8rem 0;
+    background-color: #001E28;
+    color: white;
+    line-height: 2;
+}
+.content {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.projects {
+    padding: 8rem 0;
+    background-color: rgb(226, 227, 222); 
+    color: black;
+}
+.projects img {
+    width: 30%;
+    padding: 10px;
+}
+
